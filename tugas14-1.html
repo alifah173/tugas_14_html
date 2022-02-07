@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 14-1</title>
+</head>
+<body>
+    <h1>Form Element</h1>
+    <form>
+        <input 
+            type="text" 
+            placeholder="Nama" 
+            required
+            oninvalid="this.setCustomValidity('Nama mohon diisi')"/> <br/><br/>
+        <input 
+            type="text" 
+            placeholder="Cita-cita"
+            required
+            oninvalid="this.setCustomValidity('Cita-cita mohon diisi')"/> <br/><br/>
+        <input 
+            type="text" 
+            placeholder="NO HP"
+            required
+            oninvalid="this.setCustomValidity('NO HP mohon diisi')"/> <br/><br/>
+        <textarea 
+            placeholder="Alamat" 
+            rows="4" 
+            cols="50"
+            required
+            oninvalid="this.setCustomValidity('Alamat mohon diisi')"></textarea> <br/><br/>
+        <input type="submit" value="Simpan">
+    </form>
+    <p>Semoga ilmu yang dipelajari berkah. Tugas 14-1</p>
+</body>
+</html>
